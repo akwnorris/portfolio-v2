@@ -67,6 +67,7 @@ a:hover {
 .hero-content {
   display: flex;
   align-items: center;
+  padding-bottom: 40px
 }
 
 .hero-text {
@@ -85,7 +86,6 @@ a:hover {
 .hero-image {
   flex: 1;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .hero-image img {
