@@ -9,6 +9,7 @@ body {
 
 .body-with-sticky-nav {
   margin-top: 100px; 
+  padding-top: 50px; 
 }
 
 /* Top Header Styles */
