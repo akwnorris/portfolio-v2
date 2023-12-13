@@ -146,7 +146,17 @@ a:hover {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+.project a {
+  text-decoration: none; 
+  color: #333; 
+}
+
 /* Hover Effect for Projects */
+.project a:hover {
+  text-decoration: underline; 
+  color: #000; 
+}
+
 .project:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
