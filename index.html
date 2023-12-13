@@ -5,46 +5,6 @@
   <title>Alexandra Norris</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <style>
-    /* Sticky Navigation Styles */
-    .sticky {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-      background-color: #132735; 
-    }
-
-    .body-with-sticky-nav {
-      margin-top: 50px; 
-    }
-
-    /* Smaller Logo */
-    .logo {
-      font-size: 24px; 
-      line-height: 50px; 
-      padding-left: 20px; 
-    }
-
-    /* Smaller Links */
-    .main-nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .main-nav ul li {
-      display: inline;
-      margin-left: 20px; 
-    }
-
-    .nav-link {
-      padding: 10px 15px; 
-      color: white;
-      text-decoration: none;
-    }
-  </style>
-
 </head>
 <body>
 
@@ -147,24 +107,5 @@
   
 
   <script src="script.js"></script>
-  <script>
-    window.onscroll = function() { 
-      makeNavbarSticky();
-    };
-
-    var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop + navbar.offsetHeight;
-
-function makeNavbarSticky() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-    document.body.classList.add("body-with-sticky-nav");
-  } else {
-    navbar.classList.remove("sticky");
-    document.body.classList.remove("body-with-sticky-nav");
-  }
-}
-
-  </script>
 </body>
 </html>
