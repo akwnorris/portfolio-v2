@@ -123,10 +123,13 @@ a:hover {
   overflow-x: auto;
   margin: 0 auto; 
   max-width: calc(100% - 100px); 
+  flex: 1; 
 }
 
 
 .project {
+  display: flex;
+  flex-direction: column;
   flex: 0 0 calc(33.33% - 40px);
   background-color: white;
   padding: 20px;
@@ -149,6 +152,10 @@ a:hover {
 .project a {
   text-decoration: none; 
   color: #333; 
+}
+
+.learn-more-links {
+  margin-top: auto; 
 }
 
 /* Hover Effect for Projects */
