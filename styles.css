@@ -180,6 +180,8 @@ a:hover {
 .learn-more-links a:hover {
   background-color: #eee;
   font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .separator {
