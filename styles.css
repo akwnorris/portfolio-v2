@@ -80,6 +80,10 @@ a:hover {
   padding-bottom: 0px;
 }
 
+.name-style i {
+  color: #d16666;
+}
+
 .hero-p3 {
   padding-bottom: 20px;
 }
