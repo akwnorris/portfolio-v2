@@ -7,11 +7,6 @@ body {
   color: #333;
 }
 
-.body-with-sticky-nav {
-  margin-top: 100px; 
-  padding-top: 50px; 
-}
-
 /* Top Header Styles */
 .top-header {
   background-color: #132735;
