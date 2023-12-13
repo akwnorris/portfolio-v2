@@ -74,6 +74,14 @@ a:hover {
   padding: 20px 60px;
 }
 
+.hero-heading {
+  padding-bottom: 20px;
+}
+
+.hero-p3 {
+  padding-bottom: 20px;
+}
+
 .hero-image {
   flex: 1;
   text-align: center;
