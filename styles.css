@@ -158,6 +158,10 @@ a:hover {
   margin-top: auto; 
 }
 
+.separator {
+  margin: 0px;
+}
+
 /* Hover Effect for Projects */
 .project a:hover {
   text-decoration: underline; 
