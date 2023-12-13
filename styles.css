@@ -7,11 +7,14 @@ body {
   color: #333;
 }
 
+.body-with-sticky-nav {
+  margin-top: 100px; 
+}
+
 /* Top Header Styles */
 .top-header {
   background-color: #132735;
   color: white;
-  padding: 10px 20px; 
 }
 
 .nav-bar {
@@ -25,7 +28,7 @@ body {
 
 .logo {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 35px;
   padding-left: 20px;
 }
