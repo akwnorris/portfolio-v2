@@ -103,21 +103,23 @@ a:hover {
 }
 
 /* Projects Section Styles */
-.projects-section {
+.projects-heading {
   padding-left: 60px;
 }
 
 .projects-content {
   display: flex;
-  justify-content: center; 
-  flex-wrap: nowrap; 
+  justify-content: center;
   gap: 30px; 
-  overflow-x: auto; 
-  padding: 20px 10%; 
+  padding: 20px 0;
+  overflow-x: auto;
+  margin: 0 auto; 
+  max-width: calc(100% - 100px); 
 }
 
+
 .project {
-  flex: 0 0 calc(33.33% - 20px);
+  flex: 0 0 calc(33.33% - 40px);
   background-color: white;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
