@@ -104,21 +104,27 @@ a:hover {
 
 /* Projects Section Styles */
 .projects-section {
+  padding-left: 60px;
+}
+
+.projects-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px; /* Spacing between columns */
+  justify-content: center; 
+  flex-wrap: nowrap; 
+  gap: 30px; 
+  overflow-x: auto; 
+  padding: 20px 10%; 
 }
 
 .project {
-  flex: 0 0 calc(33.33% - 40px); /* Three columns with some margin */
+  flex: 0 0 calc(33.33% - 20px);
   background-color: white;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-bottom: 20px; /* Space at the bottom of each card */
-  box-sizing: border-box; /* Include padding and border in the width */
+  margin-bottom: 20px; 
+  box-sizing: border-box; 
 }
 
 /* Hover Effect for Projects */
