@@ -7,7 +7,6 @@ body {
   color: #333;
 }
 
-
 /* Top Header Styles */
 .top-header {
   background-color: #333;
@@ -15,35 +14,35 @@ body {
   padding: 10px 20px; 
 }
 
-.container {
+.nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
 }
 
-.container h1 {
+.logo {
   margin: 0;
   font-size: 24px;
   padding-left: 20px;
 }
 
-.container p {
+.nav-link {
   padding-left: 20px;
 }
 
-nav ul {
+.nav-bar ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-nav ul li {
+.nav-bar ul li {
   display: inline;
   margin-left: 20px;
 }
 
-nav ul li:first-child {
+.nav-bar ul li:first-child {
   margin-left: 0;
 }
 
@@ -52,12 +51,8 @@ a {
   text-decoration: none;
 }
 
-.section {
-  padding: 50px 0;
-}
-
 /* Hero Section Styles */
-#hero {
+.hero-section {
   background-color: #f0f0f0;
 }
 
@@ -83,36 +78,35 @@ a {
 }
 
 /* Skills Section Styles */
-#skills {
-  background-color: #fff; /* Background color for the skills section */
+.skills-section {
+  background-color: #fff; 
   padding: 50px 0;
 }
 
-#skills img {
-  max-width: 100%; /* Ensure the image stays within its container */
-  display: block; /* Remove default image spacing */
-  margin: 0 auto; /* Center the image */
+.skills-content img {
+  max-width: 100%; 
+  display: block; 
+  margin: 0 auto; 
 }
 
 /* Projects Section Styles */
-.projects-grid {
+.projects-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 20px; /* Spacing between columns */
 }
 
 .project {
-  flex: 1;
+  flex: 0 0 calc(33.33% - 40px); /* Three columns with some margin */
   background-color: white;
   padding: 20px;
-  margin: 20px;
-  max-width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 20px; /* Space at the bottom of each card */
+  box-sizing: border-box; /* Include padding and border in the width */
 }
-
-
 
 /* Hover Effect for Projects */
 .project:hover {
@@ -121,11 +115,11 @@ a {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
+
 /* Footer Styles */
-footer {
+.page-footer {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 20px 0;
 }
-
