@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+
+/* Top Header Styles */
+.top-header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.container p {
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #f0f0f0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section Styles */
+#skills {
+  background-color: #fff; /* Background color for the skills section */
+  padding: 50px 0;
+}
+
+#skills img {
+  max-width: 100%; /* Ensure the image stays within its container */
+  display: block; /* Remove default image spacing */
+  margin: 0 auto; /* Center the image */
+}
+
+/* Projects Section Styles */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+/* Hover Effect for Projects */
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
