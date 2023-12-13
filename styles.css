@@ -179,6 +179,7 @@ a:hover {
 
 .learn-more-links a:hover {
   background-color: #eee;
+  font-weight: lighter;
 }
 
 .separator {
