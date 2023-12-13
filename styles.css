@@ -138,10 +138,12 @@ a:hover {
 }
 
 .project img {
-  max-width: 100%; /* Set the maximum width of images to fit within the cards */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
-  margin-bottom: 15px; /* Add space between the image and the text */
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin-bottom: 15px; 
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Hover Effect for Projects */
