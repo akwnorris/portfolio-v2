@@ -137,6 +137,13 @@ a:hover {
   box-sizing: border-box; 
 }
 
+.project img {
+  max-width: 100%; /* Set the maximum width of images to fit within the cards */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+  margin-bottom: 15px; /* Add space between the image and the text */
+}
+
 /* Hover Effect for Projects */
 .project:hover {
   transform: translateY(-5px);
