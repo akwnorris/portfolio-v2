@@ -167,6 +167,20 @@ a:hover {
   margin-top: auto; 
 }
 
+.learn-more-links a {
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold; 
+  padding: 10px 0; 
+  text-align: center; 
+  border-top: 1px solid #eee; 
+  display: block; 
+}
+
+.learn-more-links a:hover {
+  background-color: #eee;
+}
+
 .separator {
   margin: 0px;
 }
