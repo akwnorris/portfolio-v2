@@ -272,13 +272,14 @@ a:hover {
 .certification a {
   text-decoration: none;
   color: #333;
-  backface-visibility: hidden; 
+  font-weight: bold;
+  transition: font-weight 0.3s;
 }
 
 .certification a:hover {
   color: #d16666;
   font-style: italic;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 
