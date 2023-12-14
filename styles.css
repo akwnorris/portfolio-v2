@@ -278,7 +278,7 @@ a:hover {
 .certification a:hover {
   color: #d16666;
   font-style: italic;
-  backface-visibility: hidden;
+  font-weight: 300;
 }
 
 
