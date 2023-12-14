@@ -270,14 +270,15 @@ a:hover {
 }
 
 .certification a {
-  text-decoration: none; 
+  text-decoration: none;
   color: #333;
+  backface-visibility: hidden; 
 }
 
 .certification a:hover {
-  color: #d16666; 
-  font-style: italic; 
-  -webkit-font-smoothing: antialiased;
+  color: #d16666;
+  font-style: italic;
+  backface-visibility: hidden;
 }
 
 
