@@ -236,11 +236,6 @@ a:hover {
   box-sizing: border-box;
 }
 
-.certification:hover {
-  transform: translateY(-5px); 
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-} 
-
 .certification h3 {
   margin-top: 0; 
   margin-bottom: 10px; 
