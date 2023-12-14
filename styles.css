@@ -269,6 +269,16 @@ a:hover {
   color: #333;
 }
 
+.certification a {
+  text-decoration: none; 
+  color: #333;
+}
+
+.certification a:hover {
+  color: #d16666; 
+  font-style: italic; 
+}
+
 
 /* Footer Styles */
 .page-footer {
