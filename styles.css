@@ -277,6 +277,7 @@ a:hover {
 .certification a:hover {
   color: #d16666; 
   font-style: italic; 
+  -webkit-font-smoothing: antialiased;
 }
 
 
