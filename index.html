@@ -3,123 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <title>Alexandra Norris</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 
-  <header class="top-header" id="navbar">
-    <div class="nav-bar">
-      <h1 class="logo">Alexandra Norris</h1>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#certifications" class="nav-link">Certifications</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>        
-      </nav>
-    </div>
-  </header>
-
-  <section id="about" class="hero-section">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1 class="hero-heading">Hi, I'm <span class="name-style"><i>Alex</i></span>!</h1>
-        <p>I'm a dedicated individual with a diverse background and a strong interest in front-end web development. Having previously worked as a teacher, I've honed skills in communication, problem-solving, and project management that have equipped me to navigate evolving landscapes with ease.</p> 
-        <p>My journey into web development began as a personal hobby, where I self-taught the fundamentals of HTML and CSS for a personal blog. This passion quickly transformed into a professional aspiration.</p> 
-        <p class="hero-p3">I take pride in my ability to build websites from the ground up, and I'm enthusiastic about continuously enhancing my skills in the ever-evolving field of web development.</p>
+<section>
+  <div style="background-color: whitesmoke">
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./Norris46.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" style="border-radius: 10px;" loading="lazy">
       </div>
-      <div class="hero-image">
-        <img src="Norris46.jpg" alt="Alexandra Norris">
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm <span class="name-style" style="color: #d16666;"><i>Alex</i></span>!</h1>
+        <p class="lead">I transform visions into captivating web experiences through the art of code and creativity.</p>
       </div>
     </div>
-  </section>
+  </div>
+</div>
+</section>
 
-  <section id="skills" class="skills-section">
-    <div class="skills-content">
-      <h2 class="skills-heading">Skills</h2>
-      <img src="skills-icons.png" alt="Technology Logos" class="skills-image">
-    </div>
-  </section>
+<div class="px-4 py-5 my-5 text-center border-bottom">
+  <h1 class="display-5 fw-bold text-body-emphasis" style="color:#d16666;">About Me</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">I'm a front-end developer with a passion for traveling, eating delicious Italian food, spending time with my kids, and talking about my dog.</p>
+  </div>
+</div>
 
-  <section id="projects" class="projects-section">
-    <h2 class="projects-heading">Projects</h2>
-    <div class="projects-content">
-      <div class="project project-one">
-          <h3>Ruth's Recipe Roundup</h3>
-        </a>
-        <img src="ruth.jpg" alt="Ruth's Recipe Roundup Project">
-        <p>I built Ruth's Recipe Roundup using HTML, CSS, and JavaScript. This project featured an interactive spinner wheel for the 'Recipe Roulette,' a user-friendly contact form, and an infinite scroll feature for seamless browsing. Leveraging JSON facilitated dynamic content management, ensuring a smooth exploration of diverse recipes.</p>
-        <div class="learn-more-links">
-          <h4>Skills: HTML | CSS | JavaScript</h4>
-          <a href="https://akwnorris.github.io/food-blog/" target="_blank">Learn More</a>
+
+
+
+<div class="px-4 py-5 my-5 text-center border-bottom">
+  <h1 class="display-5 fw-bold text-body-emphasis">Skills</h1>
+  <img class="d-block mx-auto mb-4" src="./skills-icons.png" alt="" width="800" height="295">
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4"></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div>
+<div class="container px-4 pt-5 my-5 text-center" id="custom-cards">
+  <h1 class="display-4 fw-bold text-body-emphasis">Projects</h1>
+
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Earth</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>3d</small>
+            </li>
+          </ul>
         </div>
       </div>
-
-      <div class="project project-two">
-          <h3>Little Lemon</h3>
-        </a>
-        <img src="littlelemon.jpg" alt="Little Lemon Project">
-        <p>With React.js, I've crafted a robust website featuring navigation menus, interactive buttons, and a functional reservation form. This integration has elevated the site's functionality, facilitating seamless interactions and resulting in a dynamic, user-friendly experience for visitors exploring the Little Lemon restaurant website.</p>
-        <div class="learn-more-links">
-          <h4>Skills: JavaScript | React.js</h4>
-          <a href="https://little-lemon.norris.consulting" target="_blank">Learn More</a>
-        </div>
-        </div>
-
-      <div class="project project-three">
-        <h3>Little Lemon Wireframe & Prototype</h3>
-        <img src="prototype.jpg" alt="Little Lemon Wireframe & Prototype">
-        <p>Before creating the Little Lemon website, I leveraged Figma to craft a wireframe and prototype based on a style guide. In this strategic pre-development phase I mapped out the structure and design of the site, ensuring a well-defined road map for the development process. Figma played a crucial role in creating the initial framework for the project, guiding its subsequent development with precision.</p>
-        <div class="learn-more-links">
-          <h4>Skills: Figma | Wireframe | Interactive Prototype</h4>
-          <a href="https://www.figma.com/file/p5qAvuho1KkDPa7jILW0N4/LL-Wireframe?type=design&node-id=0-1&mode=design&t=hDxEVDZy4efKDh1q-0" class="learn-more" target="_blank">Learn More About Wireframe</a>
-          <a href="https://www.figma.com/file/5b35Nz6eVpGecI1ihvw22Y/LL-Prototype?type=design&node-id=0-1&mode=design&t=22USdBXufHTAInHG-0" class="learn-more" target="_blank">Learn More About Prototype</a>
-        </div>
-        </div>
     </div>
-  </section>
 
-  <section id="certifications" class="certifications-section">
-    <h2 class="certifications-heading">Certifications</h2>
-    <div class="certifications-content">
-      <div class="certification">
-        <h3><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DVYHVQLRWGGZ" class="cert-link" target="_blank">Meta Front-End Web Development</a></h3>
-        <p>Coursera</p>
-        <p>2023</p>
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Pakistan</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>4d</small>
+            </li>
+          </ul>
+        </div>
       </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>California</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>5d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
   
-      <div class="certification">
-        <h3><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/57CEVVQVPN56" class="cert-link" target="_blank">Google UX Design</a></h3>
-        <p>Coursera</p>
-        <p>2023</p>
-      </div>
-  
-      <div class="certification">
-        <h3><a href="https://www.udemy.com/certificate/UC-08c55452-f1a1-4c2d-a6f7-f45472041a60/" class="cert-link" target="_blank">Become A Wordpress Developer</a></h3>
-        <p>Udemy</p>
-        <p>2023</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="contact-section">
-  <footer class="page-footer">
-    <div class="footer-content">
-      <div class="footer-right">
-        <img src="get-in-touch.png" alt="Your Image" class="footer-image">
-        <div class="footer-links">
-          <p><a href="mailto:akwnorris@gmail.com">Email</a></p>
-          <p><a href="https://www.linkedin.com/in/alexandranorris2023">LinkedIn</a></p>
-          <p><a href="https://github.com/akwnorris">GitHub</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  </section>
-  
-
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
