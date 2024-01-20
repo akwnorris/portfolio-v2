@@ -1,24 +1,47 @@
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  .icon-square {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 0.75rem;
-  }
-  
-  .profile-img {
-    height: 100px;
-    border-radius: 50%;
+/* Global Styles */
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Hero Section */
+.container {
+  max-width: 100%;
+}
+
+/* About Me Section */
+.about-me {
+  background-color: whitesmoke;
+  padding: 4rem 0;
+}
+
+/* Skills Section */
+.skills {
+  background-color: whitesmoke;
+}
+
+/* Projects Section */
+.projects {
+  padding: 4rem 0;
+}
+
+/* Footer Section */
+footer {
+  background-color: whitesmoke;
+}
+
+/* Responsive Images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1.display-5 {
+    font-size: 2.5rem;
   }
 
-  
+  p.lead {
+    font-size: 1rem;
+  }
+}
