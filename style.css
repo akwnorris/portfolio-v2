@@ -71,17 +71,10 @@ footer {
     font-size: 1rem;
   }
 
-  /* Mobile responsiveness for images */
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-  }
-}
 /* Mobile Styles for Skills Image */
 @media (max-width: 767px) {
-  img.skills-img {
-    max-width: 100%;
+  .skills-img {
+    max-width: 50%; 
     height: auto;
   }
 }
-
